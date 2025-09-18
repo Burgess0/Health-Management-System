@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 基本页面需求-->
+    <meta charset="utf-8" />
+	<title>@ViewData["Title"] - 家乡馆</title>
+    <!--Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Construction Html5 Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="Themefisher">
+    <meta name="generator" content="Themefisher Constra HTML Template v1.0">
+    <!-- theme meta -->
+    <meta name="theme-name" content="aviato" />
+
+    <!-- 标签栏图 -->
+	<link rel="shortcut icon" type="image/x-icon" href="~/images/logo1.png" />
+    <!-- Themefisher Icon font -->
+	<link rel="stylesheet" href="~/lib/themefisher-font/style.css">
+    <!-- bootstrap.min css -->
+	<link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+
+    <!-- Slick Carousel -->
+	<link rel="stylesheet" href="~/lib/slick/slick.css">
+	<link rel="stylesheet" href="~/lib/slick/slick-theme.css">
+    <!-- 主 -->
+	<link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <!--导航栏-->
+	<section class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12 col-sm-3">
+					<!-- Site Logo -->
+					<div class="logo text-center">
+						<a href="https://localhost:44396/">
+							<!-- replace logo here -->
+							<img src="~/images/black_logo.jpg" alt="" width="160" height="45" />
+						</a>
+					</div>
+				</div>
+				<!--注册登录-->
+				<div class="col-md-8 col-xs-12 col-sm-8">
+					<partial name="_LoginPartial" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 菜单栏 -->
+	<section class="menu">
+		<nav class="navbar navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<h2 class="menu-title">菜单</h2>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+							aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+				<!-- 链接 -->
+				<div id="navbar" class="navbar-collapse collapse text-center">
+					<ul class="nav navbar-nav">
+						<!-- 首页 -->
+						<li class="dropdown ">
+							<a href="https://localhost:44396">首页</a>
+						</li>
+						<!-- 南京 -->
+						<li class="dropdown dropdown-slide">
+							<a href="https://localhost:44396/home/shopdetail/1" class="dropdown-toggle" role="button">
+								南京
+							</a>
+						</li>
+						<!-- 泰州 -->
+						<li class="dropdown full-width dropdown-slide">
+							<a href="https://localhost:44396/home/shopdetail/2" class="dropdown-toggle" role="button">
+								泰州
+							</a>
+						</li>
+						<!-- 连云港 -->
+						<li class="dropdown dropdown-slide">
+							<a href="https://localhost:44396/home/shopdetail/3" class="dropdown-toggle" role="button">
+								连云港
+							</a>
+						</li>
+						<!-- 上饶 -->
+						<li class="dropdown dropdown-slide">
+							<a href="https://localhost:44396/home/shopdetail/4" class="dropdown-toggle" role="button">
+								上饶
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+     <!--主体链接-->
+     <div >
+        <main role="main" >
+                @RenderBody()
+        </main>
+     </div>
+
+    <!--页脚-->
+	<footer class="footer section text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="social-media">
+						<li>
+							<a href="#!">
+								<img src="~/images/icon/brand1.png" alt="" width="25" />
+							</a>
+						</li>
+						<li>
+							<a href="#!">
+								<img src="~/images/icon/brand2.png" alt="" width="25" />
+							</a>
+						</li>
+						<li>
+							<a href="#!">
+								<img src="~/images/icon/brand3.png" alt="" width="25" />
+							</a>
+						</li>
+						<li>
+							<a href="#!">
+								<img src="~/images/icon/brand4.png" alt="" width="25" />
+							</a>
+						</li>
+					</ul>
+					<p class="copyright-text">Copyright © 2024 电商2001 5队 版权所有</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Bootstrap Touchpin -->
+	<script src="~/lib/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+	<!-- Count Down Js -->
+	<script src="~/lib/syo-timer/build/jquery.syotimer.min.js"></script>
+	<!-- 轮播图 -->
+	<script src="~/lib/slick/slick.min.js"></script>
+	<script src="~/lib/slick/slick-animation.min.js"></script>
+
+	<!-- Main Js File -->
+	<script src="~/js/script.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

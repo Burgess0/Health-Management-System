@@ -1,0 +1,119 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Liuyanbanadd.aspx.cs" Inherits="Liuyanbanadd" %>
+<%@ Import Namespace="app.Dbs" %>
+<%@ Import Namespace="app.Util" %>
+<% Server.Execute("Head.aspx"); %>
+<% Server.Execute("Header.aspx"); %>
+
+<script src="js/jquery.validate.js"></script>
+
+
+
+
+<div>
+
+    
+<div class="container"><!-- 使用bootstrap css框架，container定宽，并剧中 https://v3.bootcss.com/css/#overview-container -->
+
+                    
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <span class="titles">
+            添加留言板
+        </span>
+    </div>
+    <div class="panel-body">
+        
+    
+
+<form action="Liuyanban_add.aspx?f=f" method="post" name="form1" id="form1"><!-- form 标签开始 -->
+    
+                    <div class="form-group">
+    <div class="row">
+        <label style="text-align: right" class="col-sm-2 hiddex-xs">姓名<span style="color: red;">*</span></label>
+        <div class="col-sm-10">
+            
+                            <input type="text" class="form-control" placeholder="输入姓名" style="width:150px;" data-rule-required="true" data-msg-required="请填写姓名" id="xingming" name="xingming" value="<%= Session["xingming"] %>"/>                    
+        </div>
+        
+    </div>
+</div>
+                    <div class="form-group">
+    <div class="row">
+        <label style="text-align: right" class="col-sm-2 hiddex-xs">联系电话<span style="color: red;">*</span></label>
+        <div class="col-sm-10">
+            
+                            <input type="text" class="form-control" placeholder="输入联系电话" style="width:150px;" data-rule-required="true" data-msg-required="请填写联系电话" id="lianxidianhua" name="lianxidianhua" value="<%= Session["shouji"] %>"/>                    
+        </div>
+        
+    </div>
+</div>
+                    <div class="form-group">
+    <div class="row">
+        <label style="text-align: right" class="col-sm-2 hiddex-xs">留言内容<span style="color: red;">*</span></label>
+        <div class="col-sm-10">
+            
+                            <textarea style="width: 80%;height: 120px" class="form-control" placeholder="输入留言内容" data-rule-required="true" data-msg-required="请填写留言内容" id="liuyanneirong" name="liuyanneirong"></textarea>                    
+        </div>
+        
+    </div>
+</div>
+                            <div class="form-group">
+    <div class="row">
+        <label style="text-align: right" class="col-sm-2 hiddex-xs">留言人</label>
+        <div class="col-sm-10">
+            
+                            <input type="text" class="form-control" placeholder="输入留言人" style="width:150px;" readonly="readonly" id="liuyanren" name="liuyanren" value="<%= Session["username"] %>"/>                    
+        </div>
+        
+    </div>
+</div>
+                <div class="form-group">
+    <div class="row">
+        <label style="text-align: right" class="col-sm-2 hiddex-xs"> </label>
+        <div class="col-sm-10">
+            
+                
+                     <input type="hidden" name="zhuangtai" id="zhuangtai" value="待回复"/>  
+                                
+        <button type="submit" class="btn btn-primary" name="Submit">
+    提交
+</button>
+        <button type="reset" class="btn btn-default" name="Submit2">
+    重置
+</button>
+            
+        </div>
+        
+    </div>
+</div>
+
+<!--form标签结束--></form>
+
+
+
+<script>
+    $(function (){
+        $('#form1').validate();
+    });
+</script>
+
+
+
+
+    </div>
+</div>
+
+
+        
+    
+<!-- container定宽，并剧中结束 --></div>
+
+
+</div>
+
+
+<% Server.Execute("Footer.aspx"); %>
+<% Server.Execute("Foot.aspx"); %>

@@ -1,0 +1,101 @@
+﻿@model Order.Models.Food;
+@{
+    ViewData["Title"] = "商品";
+}
+@{
+	int number = @Model.ShopId;
+}
+
+<section class="single-product">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<ol class="breadcrumb">
+					<li><a href="https://localhost:44396">首页</a></li>
+					<li>
+						@if (number == 1)
+						{
+							<a href="https://localhost:44396/home/shopdetail/1">南京</a>
+							;
+						}
+						else if (number == 2)
+						{
+							<a href="https://localhost:44396/home/shopdetail/2">泰州</a>
+						}
+						else if (number == 3)
+						{
+							<a href="https://localhost:44396/home/shopdetail/3">连云港</a>
+						}
+						else if (number == 4)
+						{
+							<a href="https://localhost:44396/home/shopdetail/4">上饶</a>
+						}
+					</li>
+					<li class="active">@Model.FoodName</li>
+				</ol>
+			</div>
+		</div>
+		<div class="row mt-20">
+			<div class="col-md-5">
+				<div class="single-product-slider">
+					<div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+						<div class='carousel-outer'>
+							<!-- me art lab slider -->
+							<div class='carousel-inner '>
+								<div class='item active'>
+									<img src="@Model.FoodPic" alt='' data-zoom-image="@Model.FoodPic" style="width:560px;height:460px"/>
+								</div>
+							</div>
+							<!-- sag sol -->
+							<a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+								<i class="tf-ion-ios-arrow-left"></i>
+							</a>
+							<a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+								<i class="tf-ion-ios-arrow-right"></i>
+							</a>
+						</div>
+
+						<!-- thumb -->
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="single-product-details">
+					<h2>@Model.FoodName</h2>
+					<p class="product-price">价格：￥ @Model.FoodPrice</p>
+					<p>销量：@Model.SaleNum</p>
+					<p>促销优惠：全店满100减15元。</p>
+					<p>权益：享七天无理由</p>
+					<p class="product-description mt-20">
+						@Model.FoodIntro
+					</p>
+
+					<a href="#!" class="btn btn-main mt-20">立即购买</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="tabCommon mt-20">
+					<ul class="nav nav-tabs">
+						<li class="active"><a data-toggle="tab" href="#details" aria-expanded="true">详情</a></li>
+
+					</ul>
+					<div class="tab-content patternbg">
+						<div id="details" class="tab-pane fade active in">
+							<h4>商品描述</h4>
+							<p>
+								@Model.FoodIntro
+							</p>
+							<p></p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+

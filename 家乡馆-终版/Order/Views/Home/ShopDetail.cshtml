@@ -1,0 +1,77 @@
+﻿@model Order.Models.Shop;
+
+@{
+    ViewData["Title"] = "店铺";
+}
+
+
+<section class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content col-md-11">
+                    <h1 class="page-name">@Model.ShopName</h1>
+                    <p>@Model.ShopIntro</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="products section">
+	<div class="container">
+		<div class="row">
+			<!-- 1-->
+			@foreach (var food in Model.Foods)
+			{
+				<div class="col-md-3">
+					<div class="product-item">
+						<div class="product-thumb">
+							<span class="bage">Hot</span>
+							<img class="img-responsive" src="@food.FoodPic" alt="product-img" style="height:280px; width:330px"/>
+							<div class="preview-meta">
+								<ul>
+									<li>
+										<a href="#!"><i class="tf-ion-ios-heart"></i></a>
+									</li>
+									<li>
+										<a asp-controller="FoodDetail"
+										   asp-action="FoodDetail"
+										   asp-route-id="@food.FoodId"><i class="tf-ion-android-cart"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="product-content">
+							<div class="card-body p-4">
+								<div class="text-center">
+									<!-- Product name-->
+									<h4 class="fw-bolder">
+											@food.FoodName
+									</h4>
+									<p>@food.SaleRank</p>
+									<!-- Product price-->
+									<span class="text-muted text-decoration-line-through">￥ @food.FoodPrice</span>
+								</div>
+							</div>
+							<!-- Product actions-->
+							<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+								<a class="btn-1" 
+								asp-controller="FoodDetail"
+								   asp-action="FoodDetail"
+								   asp-route-id="@food.FoodId">立即购买</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+			
+
+		</div>
+	</div>
+</section>
+
+

@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Order.Models.Shop>;//通过model引入店铺的数据模型shop
+
+@{
+    ViewData["Title"] = "首页";
+}
+
+<!--轮播图-->
+<div class="hero-slider">
+	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider1.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 text-right">
+					<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">南京馆</p>
+					<h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">盐水鸭</h1>
+					<a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="https://localhost:44396/fooddetail/fooddetail/1">立即购买</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider2.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 text-left">
+					<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">泰州馆</p>
+					<h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">黄桥烧饼</h1>
+					<a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="https://localhost:44396/fooddetail/fooddetail/10">立即购买</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider3.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 text-left">
+					<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">上饶馆</p>
+					<h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">铅山米粉</h1>
+					<a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="https://localhost:44396/fooddetail/fooddetail/26">立即购买</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--商店入口-->
+<section class="product-category section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="title text-center">
+					<h2>我们的家乡馆</h2>
+					<div class="line-dec"></div>
+				</div>
+			</div>
+			
+			@foreach (var shop in Model)
+			{
+				<div class="col-md-6">
+					<div class="category-box">
+					<a asp-controller="Home" asp-action="ShopDetail" asp-route-id="@shop.ShopId">
+						<div style="background-color:rgba(0,0,0)">
+								<img src="@shop.ShopImgurl" alt="" style="width:670px;height:440px;opacity:0.8" />
+						</div>
+						<div class="content" >
+							<h3 style="color:#e8e8e8">
+								@shop.ShopName
+							</h3>
+								<p style="color:#e8e8e8">@shop.Address</p>
+							<br>
+							<div style="width:400px">
+									<p style="color:#e8e8e8">@shop.ShopDescription</p>
+							</div>
+							
+							
+						</div>
+					</a>
+				</div>
+				</div>
+			}
+
+		</div>
+	</div>
+</section>
+
+
+

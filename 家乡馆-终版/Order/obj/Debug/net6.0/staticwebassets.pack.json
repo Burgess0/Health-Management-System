@@ -1,0 +1,173 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Order.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Order.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food1.png",
+      "PackagePath": "staticwebassets\\images\\food\\food1.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food10.png",
+      "PackagePath": "staticwebassets\\images\\food\\food10.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food11.png",
+      "PackagePath": "staticwebassets\\images\\food\\food11.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food12.png",
+      "PackagePath": "staticwebassets\\images\\food\\food12.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food2.png",
+      "PackagePath": "staticwebassets\\images\\food\\food2.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food3.png",
+      "PackagePath": "staticwebassets\\images\\food\\food3.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food4.png",
+      "PackagePath": "staticwebassets\\images\\food\\food4.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food5.png",
+      "PackagePath": "staticwebassets\\images\\food\\food5.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food6.png",
+      "PackagePath": "staticwebassets\\images\\food\\food6.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food7.png",
+      "PackagePath": "staticwebassets\\images\\food\\food7.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food8.png",
+      "PackagePath": "staticwebassets\\images\\food\\food8.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\food\\food9.png",
+      "PackagePath": "staticwebassets\\images\\food\\food9.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\shop\\Welfare.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\Welfare.jpg"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\shop\\banner.jpeg",
+      "PackagePath": "staticwebassets\\images\\shop\\banner.jpeg"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\shop\\shop1.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\shop1.jpg"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\shop\\shop2.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\shop2.jpg"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\shop\\shop3.png",
+      "PackagePath": "staticwebassets\\images\\shop\\shop3.png"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\images\\shop\\shop4.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\shop4.jpg"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Vs 作业\\Order\\Order\\wwwroot\\lib\\twitter-bootstrap\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\twitter-bootstrap\\js\\npm.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Order.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Order.props",
+      "PackagePath": "build\\Order.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Order.props",
+      "PackagePath": "buildMultiTargeting\\Order.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Order.props",
+      "PackagePath": "buildTransitive\\Order.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
