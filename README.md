@@ -25,7 +25,9 @@
   - Visual Studio, GitHub, SQL Server Management Studio
 
 ## 📂 项目结构
-
+<p align="center">
+  <img src="docs/结构.jpg" alt="structure">
+</p>
 
 
 ## ⚡ 快速开始
@@ -36,7 +38,12 @@
 5. 访问 `http://localhost:3000`
 
 ## 📷 演示截图
-
+<p align="center">
+  <img src="docs/展示1.png" alt="structure">
+  <img src="docs/展示2.png" alt="structure">
+  <img src="docs/展示3.png" alt="structure">
+  <img src="docs/展示4.png" alt="structure">
+</p>
 
 ## 🎯 项目亮点
 - 独立完成 系统设计、开发与测试
@@ -44,8 +51,5 @@
 - 包含完整数据库设计与交互
 - 项目代码托管在 GitHub
 
-## 📚 项目背景
-
-
 ## 📌 作者
-- Zhang Hualong，zhlong032@gmail.com，https://github.com/Burgess0
+- Zhang Hualong，zhlong032@gmail.com
